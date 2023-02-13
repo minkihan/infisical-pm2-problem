@@ -1,0 +1,22 @@
+{
+    "name": "infisical-pm2-problem",
+    "version": "2023-02-13",
+    "description": "infisical 과 pm2 cluster 모드 실행 시 문제점의 재현",
+    "scripts": {
+        "build": "tsc && babel .build -d .build",
+        "local": "npm run build && node .build/app"
+    },
+    "author": "minkihan",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^5.0.0-beta.1"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.20.7",
+        "@babel/core": "^7.20.12",
+        "@babel/preset-env": "^7.20.2",
+        "@types/express": "^4.17.15",
+        "babel-plugin-module-resolver": "^4.1.0",
+        "typescript": "^4.9.4"
+    }
+}
