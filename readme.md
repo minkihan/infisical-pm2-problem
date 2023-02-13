@@ -4,7 +4,7 @@
 * pm2 (5.2.2)
 * infisical
 
-### infisical values
+### infisical secrets
 ```
 express_port=7791
 ```
