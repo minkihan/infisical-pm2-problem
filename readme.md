@@ -2,6 +2,12 @@
 ## 실행 환경
 * nodejs (18.14.0)
 * pm2 (5.2.2)
+* infisical
+
+### infisical values
+```
+express_port=7791
+```
 
 ## 실행
 ```
