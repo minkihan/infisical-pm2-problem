@@ -12,7 +12,6 @@ express_port=7791
 ## 실행
 ```
 $ npm install
-$ npm run build
 $ pm2 start ecosystem.config.js
 ```
 
